@@ -61,3 +61,6 @@ print("input获取的内容: ",a+b)
 print(len(a+b))
 
 
+a = input("请输入:")
+b = input("请输入:")
+print("两段字符串的长度:",len(a+b）)
