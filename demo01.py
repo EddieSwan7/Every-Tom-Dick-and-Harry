@@ -164,14 +164,32 @@ python的语法
 个人信息包括了：name，age，sex
 """
 
-a = {"姓名":"xxx","性别":"x","年龄":"xx","身高":"xx"}
-b = input("请输入:")
-c = input("请输入:")
-d = input("请输入:")
-e = input("请输入:")
+a = {"姓名":"xxx","性别":"x","年龄":"xx","身高":"xx","体重":"xx"}
+b = input("请输入姓名:")
+c = input("请输入性别:")
+d = input("请输入年龄:")
+e = input("请输入身高:")
+f = input("请输入体重:")
 a.update(姓名=b)
 a.update(性别=c)
 a.update(年龄=d)
 a.update(身高=e)
+a.update(体重=f)
 print(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
